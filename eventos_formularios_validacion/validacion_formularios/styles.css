@@ -1,0 +1,14 @@
+/* Utilización de pseudoclases para dar estilos visuales [33, 34] */
+input:invalid {
+  border: 2px dashed red;
+}
+
+input:valid {
+  border: 2px solid green;
+}
+
+.error {
+  color: red;
+  font-size: 0.8em;
+  display: block;
+}
